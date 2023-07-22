@@ -1,0 +1,65 @@
+.qwe{
+    margin: 0 auto;
+   padding-left: 10px;
+}
+/* Стили для контейнера с карточками */
+#cards-container {
+    text-align: center; /* Центрируем элементы по горизонтали */
+  }
+  
+  /* Стили для элементов h2 с классом qwe */
+  .qwe {
+    display: inline-block; /* Размещаем элементы в строку */
+    margin: 10px; /* Отступы между элементами */
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    text-align: center;
+  }
+   /* CSS для выравнивания элементов посередине */
+   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    text-align: center;
+  }
+
+  .name-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px;
+    cursor: pointer;
+  }
